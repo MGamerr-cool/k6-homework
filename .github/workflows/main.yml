@@ -14,4 +14,4 @@ jobs:
         run: npm install
       -
         name: Run script from repo
-        run: node load-test-webtours.js
+        run: k6 load-test-webtours.js
