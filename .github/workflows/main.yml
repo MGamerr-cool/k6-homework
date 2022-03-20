@@ -16,4 +16,4 @@ jobs:
         name: Run script from repo
         uses: grafana/k6-action@v0.2.0
         with:
-          filename: k6\load-test-webtours.js
+          filename: k6/load-test-webtours.js
